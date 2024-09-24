@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad City - Lujo en Samaná</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-image: url('Background_de_la_pagina.png'); /* Reemplazar con la URL de la imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        header p {
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .cta {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px 20px;
+            background-color: #333;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            margin: 10px;
+            border-radius: 8px;
+            width: calc(33% - 20px);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        video {
+            width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Nomad City - Lujo en Samaná</h1>
+            <p>Vive el Caribe con Estilo: Apartamentos y Villas con Vista al Mar</p>
+        </div>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Descubre Nomad City</h2>
+            <p>Ubicado en la impresionante península de Samaná, Nomad City ofrece un estilo de vida exclusivo con vistas espectaculares al mar Caribe. Nuestras residencias combinan lujo, comodidad y una conexión única con la naturaleza.</p>
+            <img src="Monte_Rojo.jpg" alt="Vista de Monte Rojo"> <!-- Reemplazar con la URL de la imagen -->
+        </section>
+        <section class="section">
+            <h2>Características Principales</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Vistas Panorámicas</h3>
+                    <p>Todas nuestras unidades cuentan con vistas inigualables al mar Caribe, ofreciéndote un entorno perfecto para relajarte y disfrutar de la naturaleza.</p>
+                    <img src="Despertar_con_esta_vista.jpeg" alt="Despertar con esta vista"> <!-- Reemplazar con la URL de la imagen -->
+                </div>
+                <div class="feature">
+                    <h3>Comodidades Exclusivas</h3>
+                    <p>Disfruta de piscina, gimnasio, coworking, restaurante y más, todo dentro de una comunidad cerrada y segura.</p>
+                    <img src="Amenidades.jpg" alt="Amenidades"> <!-- Reemplazar con la URL de la imagen -->
+                </div>
+                <div class="feature">
+                    <h3>Diseño Personalizable</h3>
+                    <p>Personaliza tu villa o apartamento según tus preferencias, creando un espacio único que refleje tu estilo de vida.</p>
+                    <img src="Diseno_de_villas.jpg" alt="Diseño de Villas"> <!-- Reemplazar con la URL de la imagen -->
+                </div>
+                <div class="feature">
+                    <h3>Inversión Inteligente</h3>
+                    <p>Aprovecha los beneficios fiscales y el crecimiento constante del mercado inmobiliario en República Dominicana.</p>
+                    <img src="Terminaciones.jpg" alt="Terminaciones de Alta Calidad"> <!-- Reemplazar con la URL de la imagen -->
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Plan de Pago</h2>
+            <img src="Plan_de_pago_Apartamentos.jpg" alt="Plan de Pago Apartamentos"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Plan_de_pago_villas.jpg" alt="Plan de Pago Villas"> <!-- Reemplazar con la URL de la imagen -->
+        </section>
+        <section class="section">
+            <h2>Master Plan</h2>
+            <img src="Masterplan.jpg" alt="Masterplan"> <!-- Reemplazar con la URL de la imagen -->
+        </section>
+        <section class="section gallery">
+            <h2>Galería</h2>
+            <img src="Galeria_1.jpg" alt="Galería 1"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Galeria_2.jpg" alt="Galería 2"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Galeria_3.jpg" alt="Galería 3"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Galeria_5.jpg" alt="Galería 5"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Galeria_6.jpg" alt="Galería 6"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Vista_2.jpg" alt="Vista al Mar"> <!-- Reemplazar con la URL de la imagen -->
+            <img src="Imagenes_de_Samana.jpg" alt="Imágenes de Samaná"> <!-- Reemplazar con la URL de la imagen -->
+        </section>
+        <section class="section">
+            <h2>Videos del Proyecto</h2>
+            <video controls>
+                <source src="Contruccion_Nomad_City_HORIZONTAL.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+            <video controls>
+                <source src="Apartamento_muestra_Nomad_City.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+            <video controls>
+                <source src="OPEN_HOUSE_SG_REMAX.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </section>
+        <section class="section cta">
+            <h2>¡Haz tu Sueño Realidad!</h2>
+            <p>Contacta con nosotros para más información y descubre cómo puedes ser parte de Nomad City. Inicia tu camino hacia un estilo de vida de lujo en el Caribe.</p>
+            <a href="https://wa.me/18297912287">Contáctanos en WhatsApp</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nomad City. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
